@@ -8,14 +8,15 @@ use Illuminate\Database\Eloquent\Model;
 class Patient extends Model
 {
     use HasFactory;
-    
-}
-public function gender()
-{
-    return $this->belongsTo(Gender::class);
-}
 
-public function service()
-{
+
+    public function gender()
+    {
+    return $this->belongsTo(Gender::class);
+    }
+
+    public function service()
+    {
     return $this->belongsTo(Service::class);
+    }
 }
