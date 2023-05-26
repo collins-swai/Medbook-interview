@@ -64,3 +64,43 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Run the project
+Git clone the project from https://github.com/collins-swai/Medbook-interview
+
+
+Onto your terminal clone the project.
+
+Download php and Laravel in your project.
+
+Run php artisan in your Visual Studio Code and wait for the server to run.
+
+You can test the following endpoints:- 
+
+
+#
+For PatientController:
+ - GET /patients - Retrieve all patients
+- GET /patients/{id} - Retrieve a specific patient
+- POST /patients - Create a new patient
+- PUT /patients/{id} - Update a patient
+- DELETE /patients/{id} - Delete a patient
+
+#
+For GenderController:
+
+- GET /genders - Retrieve all genders
+- GET /genders/{id} - Retrieve a specific gender
+- POST /genders - Create a new gender
+- PUT /genders/{id} - Update a gender
+- DELETE /genders/{id} - Delete a gender
+
+#
+
+For ServiceController:
+
+- GET /services - Retrieve all services
+- GET /services/{id} - Retrieve a specific service
+- POST /services - Create a new service
+- PUT /services/{id} - Update a service
+- DELETE /services/{id} - Delete a service
